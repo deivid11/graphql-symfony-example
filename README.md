@@ -6,7 +6,7 @@ This proyect is running with a mysql database, GraphQL can work with any databas
 
 The database structure is a simple Country-State-Municipality, types and field are defined in a folder per Entity.
 
-This is the graphQL bunlde used in this example [youshidobundle](https://getcomposer.org/doc/00-intro.md)
+This is the graphQL bunlde used in this example [youshidobundle](https://github.com/Youshido/GraphQLBundle)
  
 ## Install
 ```
