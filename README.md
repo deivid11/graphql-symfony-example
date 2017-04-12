@@ -40,7 +40,7 @@ In AppBundle\Security\GraphQLVoter you can set the permissions to root queries, 
 		"country" => "*",
 		"states" => "*",
 		"state" => ["ROLE_USER"],
-		"municipality" => "["ROLE_ADMIN", "ROLE_IDK]"
+		"municipality" => ["ROLE_ADMIN", "ROLE_IDK]
 	];
 ```
 ## Sample query
