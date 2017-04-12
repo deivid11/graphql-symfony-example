@@ -7,8 +7,8 @@ This proyect is running with a mysql database, GraphQL can work with any databas
 The database structure is a simple Country-State-Municipality, types and field are defined in a folder per Entity.
 
 This is the graphQL bunlde used in this example [youshidobundle](https://getcomposer.org/doc/00-intro.md)
-
-##Install
+ 
+## Install
 ```
 composer install
 ```
@@ -25,13 +25,13 @@ php bin/console doctrine:fixtures:load
 php bin/console assets:install --symlink
 ```
 
-##Run
+## Run
 ```
 php bin/console server:start
 ``` 
 Go to http://127.0.0.1:8000/graphql/explorer
 
-###Security
+## Security
 In AppBundle\Security\GraphQLVoter you can set the permissions to root queries, im not using field permissions becasuse increase server load.
 ```php
 	private $permissions = [
@@ -43,7 +43,7 @@ In AppBundle\Security\GraphQLVoter you can set the permissions to root queries, 
 		"municipality" => "["ROLE_ADMIN", "ROLE_IDK]"
 	];
 ```
-##Sample query
+## Sample query
 ```
 {
   municipalities{
