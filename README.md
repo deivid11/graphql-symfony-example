@@ -2,7 +2,7 @@ graphql-symfony-example
 =======================
 
  
-This proyect is running with a mysql database, GraphQL can work with any database and ORM or ODM.
+This project is running with a mysql database, GraphQL can work with any database and ORM or ODM.
 
 The database structure is a simple Country-State-Municipality, types and field are defined in a folder per Entity.
 
