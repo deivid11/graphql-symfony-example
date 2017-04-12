@@ -1,0 +1,5 @@
+services:
+    app.graphqlvoter:
+        class: AppBundle\Security\GraphQLVoter
+        tags:
+            - { name: security.voter }
